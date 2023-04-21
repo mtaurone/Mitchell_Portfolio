@@ -53,6 +53,7 @@ body {
    
    .margin-bottom_five {
        margin-bottom: 5px;
+       padding-left: 100px;
    }
    
    .link {
@@ -69,16 +70,25 @@ body {
    
    .hero-container_sub-copy {
        font-weight: 400;
+       padding-left: 100px;
    }
    
    /*Define Navigation Styles*/
    
+   #line{
+    width: 150px;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    bottom: 550px;
+    right: 1010px;
+   }
+
    nav {
-       background-color: #ffffff;
        display: flex;
        flex-direction: row wrap;
-       justify-content: flex-end;
-       padding-right: 20px;
+       justify-content: flex-start;
+       padding-left: 100px;
        position: sticky;
        top: 0;
    }
@@ -223,14 +233,16 @@ body {
    /* Define Hero Styles */
     
    .hero-container {
-       background-color: #f2f2f2;
        display: flex;
        align-items: center;
+       justify-content: center;
        margin-bottom: 60px;
    }
    
    .hero-container_img {
-      width: 40%;
+      width: 30%;
+      margin-top: 100px;
+      margin-left: 150px;
    }
    
    .hero-container_img img {
@@ -239,7 +251,8 @@ body {
    
    .hero-container_copy {
        width: 60%;
-       padding: 5%;
+       margin-left: 40;
+       margin-bottom: 30px;
    }
    
    /* Define Card Styles */
@@ -249,9 +262,9 @@ body {
        flex-flow: row wrap;
        justify-content: center;
        margin: auto auto 60px auto;
-       max-width: 1000px;
+       max-width: 2000px;
    }
-   
+
    .card {
        background-color: #f2f2f2;
        width: 40%;
