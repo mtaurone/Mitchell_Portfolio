@@ -54,6 +54,7 @@ body {
    .margin-bottom_five {
        margin-bottom: 5px;
        padding-left: 100px;
+       padding-right: 100px;
    }
    
    .link {
@@ -71,6 +72,7 @@ body {
    .hero-container_sub-copy {
        font-weight: 400;
        padding-left: 100px;
+       padding-right: 100px;
    }
    
    /*Define Navigation Styles*/
@@ -80,8 +82,8 @@ body {
     height: 6px;
     background-color: black;
     position: absolute;
-    bottom: 550px;
-    right: 1010px;
+    left: -70px;
+    top: 60px;
    }
 
    nav {
@@ -89,6 +91,7 @@ body {
        flex-direction: row wrap;
        justify-content: flex-start;
        padding-left: 100px;
+       padding-right: 100px
        position: sticky;
        top: 0;
    }
@@ -253,6 +256,7 @@ body {
        width: 60%;
        margin-left: 40;
        margin-bottom: 30px;
+       position: relative;
    }
    
    /* Define Card Styles */
