@@ -240,13 +240,14 @@ body {
        align-items: center;
        justify-content: center;
        margin-bottom: 60px;
+       padding-top: 0;
    }
    
    .hero-container_img {
       width: 30%;
       margin-top: 100px;
       margin-left: 150px;
-      display: flex;
+      
    }
    
    .hero-container_img img {
