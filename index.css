@@ -246,6 +246,7 @@ body {
       width: 30%;
       margin-top: 100px;
       margin-left: 150px;
+      display: flex;
    }
    
    .hero-container_img img {
