@@ -41,7 +41,7 @@ body {
        text-decoration: none;
    }
    
-   a:hover {
+ /*  a:hover {
        text-decoration: underline;
    }
    
@@ -99,6 +99,11 @@ body {
    .nav-link {
        display: flex;
        padding: 20px;
+       transition: color 0.2s ease-in-out;
+   }
+
+   .nav-link:hover {
+    color: red;
    }
    
    .nav-mobile {
